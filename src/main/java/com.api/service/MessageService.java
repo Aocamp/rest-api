@@ -12,6 +12,8 @@ import java.util.*;
 public class MessageService {
     private static final Map<String, Message> allMessagesMap = new HashMap<>();
     private static final Map<String, Message> messageMap = new HashMap<>();
+    private static final Map<String, Message> userMessageMap = new HashMap<>();
+    private static final Map<String, Message> roomMessageMap = new HashMap<>();
 
     public static List<Message> getAllMessages(){
         Connection conn = null;
@@ -91,7 +93,7 @@ public class MessageService {
         return messageMap.get(messageId);
     }
 
-    public static Message getMessagesByRoomId(String roomId){
+    public static List<Message> getMessagesByRoomId(String roomId){
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
@@ -108,7 +110,7 @@ public class MessageService {
                 message.setMessageText(rs.getString("message_text"));
                 message.setMessageDate(rs.getDate("message_date"));
                 message.setUserId(rs.getString("user_id"));
-                messageMap.put(message.getRoomId(), message);
+                roomMessageMap.put(message.getId(), message);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -127,10 +129,12 @@ public class MessageService {
                 e.printStackTrace();
             }
         }
-        return messageMap.get(roomId);
+        Collection<Message> messages = roomMessageMap.values();
+        List<Message> list = new ArrayList<>(messages);
+        return list;
     }
 
-    public static Message getMessagesByUserId(String userId){
+    public static List<Message> getMessagesByUserId(String userId){
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
@@ -147,7 +151,7 @@ public class MessageService {
                 message.setMessageText(rs.getString("message_text"));
                 message.setMessageDate(rs.getDate("message_date"));
                 message.setUserId(rs.getString("user_id"));
-                messageMap.put(message.getUserId(), message);
+                userMessageMap.put(message.getId(), message);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -166,7 +170,9 @@ public class MessageService {
                 e.printStackTrace();
             }
         }
-        return messageMap.get(userId);
+        Collection<Message> messages = userMessageMap.values();
+        List<Message> list = new ArrayList<>(messages);
+        return list;
     }
 
     public static void deleteMessagesInRoom(String roomId) {

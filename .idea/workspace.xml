@@ -6,8 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77aaa07a-2f64-406b-b031-c5757f489e64" name="Default" comment="">
+    <list default="true" id="77aaa07a-2f64-406b-b031-c5757f489e64" name="Default" comment="add mysql backup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,13 +74,31 @@
       <file leaf-file-name="MessageResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="525">
+              <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
                 <element signature="e#352#353#0" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="155" column="34" lean-forward="true" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+              <folding>
+                <marker date="1552639776346" expanded="true" signature="848:862" ph="SELECT * FRO... rooms" />
+                <marker date="1552639776346" expanded="true" signature="848:870" ph="SELECT * FRO... messages" />
+                <marker date="1552639776346" expanded="true" signature="2245:2280" ph="SELECT * FRO... messages" />
+                <marker date="1552639776346" expanded="true" signature="3648:3688" ph="SELECT * FRO... messages" />
+                <marker date="1552639776346" expanded="true" signature="5156:5196" ph="SELECT * FRO... messages" />
+                <marker date="1552639776346" expanded="true" signature="6629:6667" ph="DELETE FROM messages... " />
+                <marker date="1552639776346" expanded="true" signature="7486:7524" ph="DELETE FROM messages... " />
               </folding>
             </state>
           </provider>
@@ -94,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dump20190315.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dump20190315.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/databasebackup/Dump20190315.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-925">
@@ -476,12 +496,20 @@
       <updated>1552556769095</updated>
       <workItem from="1552556773415" duration="5518000" />
       <workItem from="1552624247798" duration="1997000" />
-      <workItem from="1552626863842" duration="2761000" />
+      <workItem from="1552626863842" duration="4078000" />
     </task>
+    <task id="LOCAL-00001" summary="add mysql backup">
+      <created>1552638601973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552638601973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10276000" />
+    <option name="totallyTimeSpent" value="11593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,13 +538,13 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39950678" sideWeight="0.49783784" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34401974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32799014" sideWeight="0.49567568" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279703" sideWeight="0.49567568" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4480198" sideWeight="0.48918918" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4480198" sideWeight="0.48918918" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26972973" sideWeight="0.4759556" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -537,6 +565,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add mysql backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mysql backup" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -549,8 +581,8 @@
           <folding>
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -562,8 +594,8 @@
           <folding>
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -573,13 +605,13 @@
         <state relative-caret-position="500">
           <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
           <folding>
-            <marker date="1552561793904" expanded="true" signature="688:702" ph="SELECT * FRO... rooms" />
-            <marker date="1552561793904" expanded="true" signature="688:710" ph="SELECT * FRO... messages" />
-            <marker date="1552561793904" expanded="true" signature="2085:2120" ph="SELECT * FRO... messages" />
-            <marker date="1552561793904" expanded="true" signature="3482:3522" ph="SELECT * FRO... messages" />
-            <marker date="1552561793904" expanded="true" signature="4882:4922" ph="SELECT * FRO... messages" />
-            <marker date="1552561793904" expanded="true" signature="6253:6291" ph="DELETE FROM messages... " />
-            <marker date="1552561793904" expanded="true" signature="7110:7148" ph="DELETE FROM messages... " />
+            <marker date="1552639776346" expanded="true" signature="848:862" ph="SELECT * FRO... rooms" />
+            <marker date="1552639776346" expanded="true" signature="848:870" ph="SELECT * FRO... messages" />
+            <marker date="1552639776346" expanded="true" signature="2245:2280" ph="SELECT * FRO... messages" />
+            <marker date="1552639776346" expanded="true" signature="3648:3688" ph="SELECT * FRO... messages" />
+            <marker date="1552639776346" expanded="true" signature="5156:5196" ph="SELECT * FRO... messages" />
+            <marker date="1552639776346" expanded="true" signature="6629:6667" ph="DELETE FROM messages... " />
+            <marker date="1552639776346" expanded="true" signature="7486:7524" ph="DELETE FROM messages... " />
           </folding>
         </state>
       </provider>
@@ -689,35 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding>
-            <marker date="1552561793904" expanded="true" signature="688:702" ph="SELECT * FRO... rooms" />
-            <marker date="1552561793904" expanded="true" signature="688:710" ph="SELECT * FRO... messages" />
-            <marker date="1552561793904" expanded="true" signature="2085:2120" ph="SELECT * FRO... messages" />
-            <marker date="1552561793904" expanded="true" signature="3482:3522" ph="SELECT * FRO... messages" />
-            <marker date="1552561793904" expanded="true" signature="4882:4922" ph="SELECT * FRO... messages" />
-            <marker date="1552561793904" expanded="true" signature="6253:6291" ph="DELETE FROM messages... " />
-            <marker date="1552561793904" expanded="true" signature="7110:7148" ph="DELETE FROM messages... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -731,6 +734,35 @@
         <state relative-caret-position="-925">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="155" column="34" lean-forward="true" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+          <folding>
+            <marker date="1552639776346" expanded="true" signature="848:862" ph="SELECT * FRO... rooms" />
+            <marker date="1552639776346" expanded="true" signature="848:870" ph="SELECT * FRO... messages" />
+            <marker date="1552639776346" expanded="true" signature="2245:2280" ph="SELECT * FRO... messages" />
+            <marker date="1552639776346" expanded="true" signature="3648:3688" ph="SELECT * FRO... messages" />
+            <marker date="1552639776346" expanded="true" signature="5156:5196" ph="SELECT * FRO... messages" />
+            <marker date="1552639776346" expanded="true" signature="6629:6667" ph="DELETE FROM messages... " />
+            <marker date="1552639776346" expanded="true" signature="7486:7524" ph="DELETE FROM messages... " />
+          </folding>
         </state>
       </provider>
     </entry>

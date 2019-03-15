@@ -16,17 +16,24 @@ public class MessageResource {
     }
 
     @GET
-    @Path("/{roomId}")
+    @Path("/{id}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public Message getMessage(@PathParam("roomId") String roomId) {
-        return MessageService.getMessageById(roomId);
+    public Message getMessage(@PathParam("id") String id) {
+        return MessageService.getMessageById(id);
     }
 
     @GET
     @Path("/user/{userId}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public Message getMessageByUserId(@PathParam("userId") String userId) {
+    public List<Message> getMessageByUserId(@PathParam("userId") String userId) {
         return MessageService.getMessagesByUserId(userId);
+    }
+
+    @GET
+    @Path("/room/{roomId}")
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+    public List<Message> getMessageByRoomId(@PathParam("roomId") String roomId) {
+        return MessageService.getMessagesByRoomId(roomId);
     }
 
     @DELETE
