@@ -6,20 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77aaa07a-2f64-406b-b031-c5757f489e64" name="Default" comment="update message service">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fb191b9f-5bb6-47db-8068-9113cf29b5e4.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/fb191b9f-5bb6-47db-8068-9113cf29b5e4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="77aaa07a-2f64-406b-b031-c5757f489e64" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api.iml" afterPath="$PROJECT_DIR$/api.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/Message.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/Room.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/Room.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/service/UserService.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/api/model/Message.class" afterPath="$PROJECT_DIR$/target/classes/com/api/model/Message.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/api/model/Room.class" afterPath="$PROJECT_DIR$/target/classes/com/api/model/Room.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/api/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/api/model/User.class" />
@@ -144,7 +132,7 @@
       <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3675">
+            <state relative-caret-position="1275">
               <caret line="147" column="23" lean-forward="false" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,7 +160,7 @@
       <file leaf-file-name="UserResource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
+            <state relative-caret-position="764">
               <caret line="42" column="54" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
               <folding>
                 <element signature="e#386#387#0" expanded="true" />
@@ -560,7 +548,7 @@
       <workItem from="1552886828224" duration="4335000" />
       <workItem from="1552974447802" duration="1447000" />
       <workItem from="1553069247076" duration="3421000" />
-      <workItem from="1553072724014" duration="1949000" />
+      <workItem from="1553072724014" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="add mysql backup">
       <created>1552638601973</created>
@@ -583,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552648910236</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactoring">
+      <created>1553075995311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553075995311</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26642000" />
+    <option name="totallyTimeSpent" value="26702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,7 +641,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add mysql backup" />
     <MESSAGE value="update message service" />
-    <option name="LAST_COMMIT_MESSAGE" value="update message service" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1133,7 +1129,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3675">
+        <state relative-caret-position="1275">
           <caret line="147" column="23" lean-forward="false" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1149,7 +1145,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
+        <state relative-caret-position="764">
           <caret line="42" column="54" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
           <folding>
             <element signature="e#386#387#0" expanded="true" />
