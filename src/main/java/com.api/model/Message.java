@@ -8,17 +8,17 @@ import java.util.Date;
 @XmlRootElement(name = "messagesList")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Message {
-    private String id;
-    private String roomId;
+    private Long id;
+    private Long roomId;
     private String messageText;
     private Date messageDate;
-    private String userId;
+    private Long userId;
 
     public Message(){
 
     }
 
-    public Message(String id, String roomId, String messageText, Date messageDate, String userId) {
+    public Message(Long id, Long roomId, String messageText, Date messageDate, Long userId) {
         this.id = id;
         this.roomId = roomId;
         this.messageText = messageText;
@@ -26,19 +26,19 @@ public class Message {
         this.userId = userId;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public String getRoomId() {
+    public Long getRoomId() {
         return roomId;
     }
 
-    public void setRoomId(String roomId) {
+    public void setRoomId(Long roomId) {
         this.roomId = roomId;
     }
 
@@ -58,11 +58,11 @@ public class Message {
         this.messageDate = messageDate;
     }
 
-    public String getUserId() {
+    public Long getUserId() {
         return userId;
     }
 
-    public void setUserId(String userId) {
+    public void setUserId(Long userId) {
         this.userId = userId;
     }
 }

@@ -10,36 +10,38 @@ import java.util.List;
 
 @Path("users")
 public class UserResource {
+    UserService userService = new UserService();
+
     @GET
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public List<User> getAllOrders()  {
-        return UserService.getAllUsers();
+        return userService.getAllUsers();
     }
 
     @GET
     @Path("/{userId}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public User getUser(@PathParam("userId") String userId) {
-        return UserService.getUserById(userId);
+    public User getUser(@PathParam("userId") Long userId) {
+        return userService.getUserById(userId);
     }
 
     @POST
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public User addUser(User user){
-        return UserService.addUser(user);
+        return userService.addUser(user);
     }
 
     @PUT
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public User updateOrders(User user) {
-        return UserService.updateUser(user);
+        return userService.updateUser(user);
     }
 
     @DELETE
     @Path("/{userId}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public void deleteOrders(@PathParam("userId") String userId) {
-        UserService.deleteUser(userId);
+    public void deleteOrders(@PathParam("userId") Long userId) {
+        userService.deleteUser(userId);
     }
 
 }

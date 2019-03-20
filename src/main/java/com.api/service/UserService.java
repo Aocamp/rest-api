@@ -10,10 +10,50 @@ import java.sql.SQLException;
 import java.util.*;
 
 public class UserService {
-    private static final Map<String, User> allUsersMap = new HashMap<>();
-    private static final Map<String, User> userMap = new HashMap<>();
+    private Map<Long, User> allUsersMap = new HashMap<>();
 
-    public static List<User> getAllUsers(){
+    private void setUser(ResultSet rs){
+        User user = new User();
+        try {
+            user.setId(rs.getLong("id"));
+            user.setUserLogin(rs.getString("user_login"));
+            user.setSupport(rs.getInt("support"));
+            allUsersMap.put(user.getId(), user);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void closeConnection(Connection conn, PreparedStatement pst, ResultSet rs){
+        try {
+            if (rs != null) {
+                rs.close();
+            }
+            if (pst != null) {
+                pst.close();
+            }
+            if (conn != null) {
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void closeConnection(Connection conn, PreparedStatement pst){
+        try {
+            if (pst != null) {
+                pst.close();
+            }
+            if (conn != null) {
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public List<User> getAllUsers(){
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
@@ -22,70 +62,40 @@ public class UserService {
             pst = conn.prepareStatement("SELECT * FROM users");
             rs = pst.executeQuery();
             while (rs.next()) {
-                User user = new User();
-                user.setId(rs.getString("id"));
-                user.setUserLogin(rs.getString("user_login"));
-                allUsersMap.put(user.getId(), user);
+                setUser(rs);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (pst != null) {
-                    pst.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            closeConnection(conn, pst, rs);
         }
         Collection<User> users = allUsersMap.values();
         List<User> list = new ArrayList<>(users);
         return list;
     }
 
-    public static User getUserById(String userId){
+    public User getUserById(Long userId){
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
         try {
             conn = HikariCPDataSource.getConnection();
             pst = conn.prepareStatement("SELECT * FROM users WHERE id = ?");
-            pst.setString(1, userId);
+            pst.setLong(1, userId);
             rs = pst.executeQuery();
             while (rs.next()) {
-                User user = new User();
-                user.setId(rs.getString("id"));
-                user.setUserLogin(rs.getString("user_login"));
-                userMap.put(user.getId(), user);
+                setUser(rs);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (pst != null) {
-                    pst.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            closeConnection(conn, pst, rs);
         }
-        System.out.println(userMap.get(userId));
-        return userMap.get(userId);
+        System.out.println(allUsersMap.get(userId));
+        return allUsersMap.get(userId);
     }
 
-    public static User addUser(User user){
+    public User addUser(User user){
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
@@ -104,24 +114,12 @@ public class UserService {
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (pst != null) {
-                    pst.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            closeConnection(conn, pst, rs);
         }
         return user;
     }
 
-    public static User updateUser(User user){
+    public User updateUser(User user){
         Connection conn = null;
         PreparedStatement pst = null;
         try {
@@ -129,51 +127,31 @@ public class UserService {
             String update = "UPDATE users SET user_login = ? WHERE id = ?";
             pst = conn.prepareStatement(update);
             pst.setString(1, user.getUserLogin());
-            pst.setString(2, user.getId());
+            pst.setLong(2, user.getId());
             pst.executeUpdate();
             allUsersMap.put(user.getId(), user);
-            userMap.put(user.getId(), user);
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            try {
-                if (pst != null) {
-                    pst.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            closeConnection(conn, pst);
         }
         return user;
     }
 
-    public static void deleteUser(String userId){
+    public void deleteUser(Long userId){
         Connection conn = null;
         PreparedStatement pst = null;
         try {
             conn = HikariCPDataSource.getConnection();
             String delete = "DELETE FROM users WHERE id = ?";
             pst = conn.prepareStatement(delete);
-            pst.setString(1, userId);
+            pst.setLong(1, userId);
             pst.executeUpdate();
             allUsersMap.remove(userId);
-            userMap.remove(userId);
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            try {
-                if (pst != null) {
-                    pst.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            closeConnection(conn, pst);
         }
     }
 }

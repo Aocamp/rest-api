@@ -10,10 +10,37 @@ import java.sql.SQLException;
 import java.util.*;
 
 public class RoomService {
-    private static final Map<String, Room> allRoomsMap = new HashMap<>();
-    private static final Map<String, Room> roomMap = new HashMap<>();
+    private Map<Long, Room> allRoomsMap = new HashMap<>();
+    private Map<Long, Room> userRoomsMap = new HashMap<>();
 
-    public static List<Room> getAllRooms(){
+    private void setRoom(Room room, ResultSet rs){
+        try {
+            room.setId(rs.getLong("id"));
+            room.setRoomName(rs.getString("room_name"));
+            room.setUserId(rs.getLong("user_id"));
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private void closeConnection(Connection conn, PreparedStatement pst, ResultSet rs){
+        try {
+            if (rs != null) {
+                rs.close();
+            }
+            if (pst != null) {
+                pst.close();
+            }
+            if (conn != null) {
+                conn.close();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public List<Room> getAllRooms(){
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
@@ -23,118 +50,76 @@ public class RoomService {
             rs = pst.executeQuery();
             while (rs.next()) {
                 Room room = new Room();
-                room.setId(rs.getString("id"));
-                room.setRoomName(rs.getString("room_name"));
-                room.setUserId(rs.getString("user_id"));
+                setRoom(room, rs);
                 allRoomsMap.put(room.getId(), room);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (pst != null) {
-                    pst.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            closeConnection(conn, pst, rs);
         }
         Collection<Room> rooms = allRoomsMap.values();
         List<Room> list = new ArrayList<>(rooms);
         return list;
     }
 
-    public static Room getRoomById(String roomId){
+    public Room getRoomById(Long roomId){
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
         try {
             conn = HikariCPDataSource.getConnection();
             pst = conn.prepareStatement("SELECT * FROM rooms where id = ?");
-            pst.setString(1, roomId);
+            pst.setLong(1, roomId);
             rs = pst.executeQuery();
             while (rs.next()) {
                 Room room = new Room();
-                room.setId(rs.getString("id"));
-                room.setRoomName(rs.getString("room_name"));
-                room.setUserId(rs.getString("user_id"));
-                roomMap.put(room.getId(), room);
+                setRoom(room, rs);
+                allRoomsMap.put(room.getId(), room);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (pst != null) {
-                    pst.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            closeConnection(conn, pst, rs);
         }
-        System.out.println(roomMap.get(roomId));
-        return roomMap.get(roomId);
+        System.out.println(allRoomsMap.get(roomId));
+        return allRoomsMap.get(roomId);
     }
 
-    public static Room getRoomByUserId(String userId){
+    public List<Room> getRoomsByUserId(Long userId){
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
         try {
             conn = HikariCPDataSource.getConnection();
             pst = conn.prepareStatement("SELECT * FROM rooms where user_id = ?");
-            pst.setString(1, userId);
+            pst.setLong(1, userId);
             rs = pst.executeQuery();
             while (rs.next()) {
                 Room room = new Room();
-                room.setId(rs.getString("id"));
-                room.setRoomName(rs.getString("room_name"));
-                room.setUserId(rs.getString("user_id"));
-                roomMap.put(room.getUserId(), room);
+                setRoom(room, rs);
+                userRoomsMap.put(room.getId(), room);
             }
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (pst != null) {
-                    pst.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
+            closeConnection(conn, pst, rs);
         }
-        System.out.println(roomMap.get(userId));
-        return roomMap.get(userId);
+        Collection<Room> rooms = userRoomsMap.values();
+        List<Room> list = new ArrayList<>(rooms);
+        return list;
     }
 
-    public static void deleteRoom(String roomId){
+    public void deleteRoom(Long roomId){
         Connection conn = null;
         PreparedStatement pst = null;
         try {
             conn = HikariCPDataSource.getConnection();
             String delete = "DELETE FROM rooms WHERE id = ?";
             pst = conn.prepareStatement(delete);
-            pst.setString(1, roomId);
+            pst.setLong(1, roomId);
             pst.executeUpdate();
             allRoomsMap.remove(roomId);
-            roomMap.remove(roomId);
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {

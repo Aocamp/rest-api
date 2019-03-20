@@ -6,12 +6,38 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77aaa07a-2f64-406b-b031-c5757f489e64" name="Default" comment="">
+    <list default="true" id="77aaa07a-2f64-406b-b031-c5757f489e64" name="Default" comment="update message service">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fb191b9f-5bb6-47db-8068-9113cf29b5e4.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/fb191b9f-5bb6-47db-8068-9113cf29b5e4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/api.iml" afterPath="$PROJECT_DIR$/api.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/Message.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/Room.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/Room.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/model/Message.class" afterPath="$PROJECT_DIR$/target/classes/com/api/model/Message.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/model/Room.class" afterPath="$PROJECT_DIR$/target/classes/com/api/model/Room.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/api/model/User.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/api/resource/MessageResource.class" afterPath="$PROJECT_DIR$/target/classes/com/api/resource/MessageResource.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/resource/RoomResource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/resource/UserResource.class" afterPath="$PROJECT_DIR$/target/classes/com/api/resource/UserResource.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/api/service/MessageService.class" afterPath="$PROJECT_DIR$/target/classes/com/api/service/MessageService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/service/RoomService.class" afterPath="$PROJECT_DIR$/target/classes/com/api/service/RoomService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/api/service/UserService.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/Message.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/Message.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/Room.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/Room.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/User.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/User.class" />
       <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/MessageResource.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/MessageResource.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/RoomResource.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/RoomResource.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/UserResource.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/UserResource.class" />
       <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/service/MessageService.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/service/MessageService.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/service/RoomService.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/service/RoomService.class" />
+      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/service/UserService.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/service/UserService.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,6 +92,13 @@
         <item name="server_db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="server_db: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="support_actions: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="server_db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="server_db: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="users: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
@@ -73,16 +106,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MessageResource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java">
+      <file leaf-file-name="RoomService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="364">
+              <caret line="100" column="20" lean-forward="false" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
               <folding>
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <marker date="1553073483447" expanded="true" signature="1342:1361" ph="SELECT * FRO... rooms" />
+                <marker date="1553073483447" expanded="true" signature="2102:2134" ph="SELECT * FRO... rooms" />
+                <marker date="1553073483447" expanded="true" signature="2889:2926" ph="SELECT * FRO... rooms" />
+                <marker date="1553073483447" expanded="true" signature="3663:3693" ph="DELETE FROM rooms... " />
               </folding>
             </state>
           </provider>
@@ -91,37 +125,59 @@
       <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
-              <caret line="155" column="34" lean-forward="true" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+            <state relative-caret-position="-500">
+              <caret line="75" column="45" lean-forward="false" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
               <folding>
-                <marker date="1552639776346" expanded="true" signature="848:862" ph="SELECT * FRO... rooms" />
-                <marker date="1552639776346" expanded="true" signature="848:870" ph="SELECT * FRO... messages" />
-                <marker date="1552639776346" expanded="true" signature="2245:2280" ph="SELECT * FRO... messages" />
-                <marker date="1552639776346" expanded="true" signature="3648:3688" ph="SELECT * FRO... messages" />
-                <marker date="1552639776346" expanded="true" signature="5156:5196" ph="SELECT * FRO... messages" />
-                <marker date="1552639776346" expanded="true" signature="6629:6667" ph="DELETE FROM messages... " />
-                <marker date="1552639776346" expanded="true" signature="7486:7524" ph="DELETE FROM messages... " />
+                <marker date="1553072652399" expanded="true" signature="1573:1587" ph="SELECT * FRO... rooms" />
+                <marker date="1553072652399" expanded="true" signature="1573:1595" ph="SELECT * FRO... messages" />
+                <marker date="1553072652399" expanded="true" signature="2371:2406" ph="SELECT * FRO... messages" />
+                <marker date="1553072652399" expanded="true" signature="3181:3221" ph="SELECT * FRO... messages" />
+                <marker date="1553072652399" expanded="true" signature="3181:3233" ph="SELECT * FRO... messages" />
+                <marker date="1553072652399" expanded="true" signature="4100:4140" ph="SELECT * FRO... messages" />
+                <marker date="1553072652399" expanded="true" signature="4972:5010" ph="DELETE FROM messages... " />
+                <marker date="1553072652399" expanded="true" signature="5779:5817" ph="DELETE FROM messages... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Message.java">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="3675">
+              <caret line="147" column="23" lean-forward="false" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1553072602856" expanded="true" signature="1676:1695" ph="SELECT * FRO... users" />
+                <marker date="1553072602856" expanded="true" signature="2337:2369" ph="SELECT * FRO... users" />
+                <marker date="1553072602856" expanded="true" signature="2995:3035" ph="SELECT * FRO... users" />
+                <marker date="1553072602856" expanded="true" signature="3236:3277" ph="INSERT INTO users... " />
+                <marker date="1553072602856" expanded="true" signature="3813:3857" ph="UPDATE users... " />
+                <marker date="1553072602856" expanded="true" signature="4459:4489" ph="DELETE FROM users... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoomResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dump20190315.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/databasebackup/Dump20190315.sql">
+      <file leaf-file-name="UserResource.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-925">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="689">
+              <caret line="42" column="54" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+              <folding>
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,16 +210,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com.api/Resource/UserResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/Resource/MessageResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/Resource/RoomResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.api/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/model/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/model/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.api/model/SupportAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.api/model/Support.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.api/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" />
       </list>
     </option>
   </component>
@@ -202,7 +260,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,9 +355,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -498,7 +556,11 @@
       <updated>1552556769095</updated>
       <workItem from="1552556773415" duration="5518000" />
       <workItem from="1552624247798" duration="1997000" />
-      <workItem from="1552626863842" duration="6054000" />
+      <workItem from="1552626863842" duration="7975000" />
+      <workItem from="1552886828224" duration="4335000" />
+      <workItem from="1552974447802" duration="1447000" />
+      <workItem from="1553069247076" duration="3421000" />
+      <workItem from="1553072724014" duration="1949000" />
     </task>
     <task id="LOCAL-00001" summary="add mysql backup">
       <created>1552638601973</created>
@@ -514,11 +576,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552639890226</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update message service">
+      <created>1552648910236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552648910236</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13569000" />
+    <option name="totallyTimeSpent" value="26642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,9 +622,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4480198" sideWeight="0.48918918" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4480198" sideWeight="0.48918918" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26972973" sideWeight="0.4759556" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2891892" sideWeight="0.4759556" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25135136" sideWeight="0.5240444" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -584,15 +653,297 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1553073483447" expanded="true" signature="1342:1361" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2102:2134" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2889:2926" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="3663:3693" ph="DELETE FROM rooms... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding>
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="42" column="54" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="129" column="25" lean-forward="false" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+          <folding>
+            <marker date="1553072652399" expanded="true" signature="1573:1587" ph="SELECT * FRO... rooms" />
+            <marker date="1553072652399" expanded="true" signature="1573:1595" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="2371:2406" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="3181:3221" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="3181:3233" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="4100:4140" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="4972:5010" ph="DELETE FROM messages... " />
+            <marker date="1553072652399" expanded="true" signature="5779:5817" ph="DELETE FROM messages... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1553073483447" expanded="true" signature="1342:1361" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2102:2134" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2889:2926" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="3663:3693" ph="DELETE FROM rooms... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1553072602856" expanded="true" signature="1676:1695" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="2337:2369" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="2995:3035" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="3236:3277" ph="INSERT INTO users... " />
+            <marker date="1553072602856" expanded="true" signature="3813:3857" ph="UPDATE users... " />
+            <marker date="1553072602856" expanded="true" signature="4459:4489" ph="DELETE FROM users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3100">
+          <caret line="124" column="11" lean-forward="false" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1553072602856" expanded="true" signature="1676:1695" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="2337:2369" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="2995:3035" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="3236:3277" ph="INSERT INTO users... " />
+            <marker date="1553072602856" expanded="true" signature="3813:3857" ph="UPDATE users... " />
+            <marker date="1553072602856" expanded="true" signature="4459:4489" ph="DELETE FROM users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1553073483447" expanded="true" signature="1342:1361" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2102:2134" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2889:2926" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="3663:3693" ph="DELETE FROM rooms... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1553073483447" expanded="true" signature="1342:1361" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2102:2134" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2889:2926" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="3663:3693" ph="DELETE FROM rooms... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <marker date="1553072652399" expanded="true" signature="1573:1587" ph="SELECT * FRO... rooms" />
+            <marker date="1553072652399" expanded="true" signature="1573:1595" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="2371:2406" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="3181:3221" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="3181:3233" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="4100:4140" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="4972:5010" ph="DELETE FROM messages... " />
+            <marker date="1553072652399" expanded="true" signature="5779:5817" ph="DELETE FROM messages... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1553072602856" expanded="true" signature="1676:1695" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="2337:2369" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="2995:3035" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="3236:3277" ph="INSERT INTO users... " />
+            <marker date="1553072602856" expanded="true" signature="3813:3857" ph="UPDATE users... " />
+            <marker date="1553072602856" expanded="true" signature="4459:4489" ph="DELETE FROM users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -602,10 +953,8 @@
         <state relative-caret-position="975">
           <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
           <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -615,13 +964,14 @@
         <state relative-caret-position="500">
           <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
           <folding>
-            <marker date="1552639776346" expanded="true" signature="848:862" ph="SELECT * FRO... rooms" />
-            <marker date="1552639776346" expanded="true" signature="848:870" ph="SELECT * FRO... messages" />
-            <marker date="1552639776346" expanded="true" signature="2245:2280" ph="SELECT * FRO... messages" />
-            <marker date="1552639776346" expanded="true" signature="3648:3688" ph="SELECT * FRO... messages" />
-            <marker date="1552639776346" expanded="true" signature="5156:5196" ph="SELECT * FRO... messages" />
-            <marker date="1552639776346" expanded="true" signature="6629:6667" ph="DELETE FROM messages... " />
-            <marker date="1552639776346" expanded="true" signature="7486:7524" ph="DELETE FROM messages... " />
+            <marker date="1553072652399" expanded="true" signature="1573:1587" ph="SELECT * FRO... rooms" />
+            <marker date="1553072652399" expanded="true" signature="1573:1595" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="2371:2406" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="3181:3221" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="3181:3233" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="4100:4140" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="4972:5010" ph="DELETE FROM messages... " />
+            <marker date="1553072652399" expanded="true" signature="5779:5817" ph="DELETE FROM messages... " />
           </folding>
         </state>
       </provider>
@@ -651,54 +1001,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2718">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <marker date="1552558318170" expanded="true" signature="664:683" ph="SELECT * FRO... rooms" />
-            <marker date="1552558318170" expanded="true" signature="1886:1918" ph="SELECT * FRO... rooms" />
-            <marker date="1552558318170" expanded="true" signature="3118:3155" ph="SELECT * FRO... rooms" />
-            <marker date="1552558318170" expanded="true" signature="4313:4343" ph="DELETE FROM rooms... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1552558191999" expanded="true" signature="664:683" ph="SELECT * FRO... users" />
-            <marker date="1552558191999" expanded="true" signature="1831:1863" ph="SELECT * FRO... users" />
-            <marker date="1552558191999" expanded="true" signature="2983:3023" ph="SELECT * FRO... users" />
-            <marker date="1552558191999" expanded="true" signature="3224:3265" ph="INSERT INTO users... " />
-            <marker date="1552558191999" expanded="true" signature="4130:4174" ph="UPDATE users... " />
-            <marker date="1552558191999" expanded="true" signature="5074:5104" ph="DELETE FROM users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="39" column="69" lean-forward="false" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -711,67 +1017,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Room.java">
+    <entry file="file://$PROJECT_DIR$/databasebackup/Dump20190315.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="-925">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="1075">
+          <caret line="64" column="30" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/databasebackup/Dump20190315.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-925">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Support.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/sql/SQLException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding>
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="100" column="20" lean-forward="false" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1553073483447" expanded="true" signature="1342:1361" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2102:2134" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="2889:2926" ph="SELECT * FRO... rooms" />
+            <marker date="1553073483447" expanded="true" signature="3663:3693" ph="DELETE FROM rooms... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="155" column="34" lean-forward="true" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+        <state relative-caret-position="-500">
+          <caret line="75" column="45" lean-forward="false" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
           <folding>
-            <marker date="1552639776346" expanded="true" signature="848:862" ph="SELECT * FRO... rooms" />
-            <marker date="1552639776346" expanded="true" signature="848:870" ph="SELECT * FRO... messages" />
-            <marker date="1552639776346" expanded="true" signature="2245:2280" ph="SELECT * FRO... messages" />
-            <marker date="1552639776346" expanded="true" signature="3648:3688" ph="SELECT * FRO... messages" />
-            <marker date="1552639776346" expanded="true" signature="5156:5196" ph="SELECT * FRO... messages" />
-            <marker date="1552639776346" expanded="true" signature="6629:6667" ph="DELETE FROM messages... " />
-            <marker date="1552639776346" expanded="true" signature="7486:7524" ph="DELETE FROM messages... " />
+            <marker date="1553072652399" expanded="true" signature="1573:1587" ph="SELECT * FRO... rooms" />
+            <marker date="1553072652399" expanded="true" signature="1573:1595" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="2371:2406" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="3181:3221" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="3181:3233" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="4100:4140" ph="SELECT * FRO... messages" />
+            <marker date="1553072652399" expanded="true" signature="4972:5010" ph="DELETE FROM messages... " />
+            <marker date="1553072652399" expanded="true" signature="5779:5817" ph="DELETE FROM messages... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="3675">
+          <caret line="147" column="23" lean-forward="false" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
           <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1553072602856" expanded="true" signature="1676:1695" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="2337:2369" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="2995:3035" ph="SELECT * FRO... users" />
+            <marker date="1553072602856" expanded="true" signature="3236:3277" ph="INSERT INTO users... " />
+            <marker date="1553072602856" expanded="true" signature="3813:3857" ph="UPDATE users... " />
+            <marker date="1553072602856" expanded="true" signature="4459:4489" ph="DELETE FROM users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="42" column="54" lean-forward="false" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+          <folding>
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -835,7 +1217,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
