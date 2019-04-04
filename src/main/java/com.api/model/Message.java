@@ -7,32 +7,11 @@ import java.util.Date;
 
 @XmlRootElement(name = "messagesList")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Message {
-    private Long id;
+public class Message extends BaseModel{
     private Long roomId;
     private String messageText;
     private Date messageDate;
     private Long userId;
-
-    public Message(){
-
-    }
-
-    public Message(Long id, Long roomId, String messageText, Date messageDate, Long userId) {
-        this.id = id;
-        this.roomId = roomId;
-        this.messageText = messageText;
-        this.messageDate = messageDate;
-        this.userId = userId;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public Long getRoomId() {
         return roomId;

@@ -6,28 +6,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "roomsList")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Room {
-    private Long id;
+public class Room extends BaseModel{
     private String roomName;
+
     private Long userId;
-
-    public Room(){
-
-    }
-
-    public Room(Long id, String roomName, Long userId) {
-        this.id = id;
-        this.roomName = roomName;
-        this.userId = userId;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getRoomName() {
         return roomName;

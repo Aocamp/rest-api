@@ -1,5 +1,6 @@
 package com.api.resource;
 
+import com.api.dao.RoomDao;
 import com.api.model.Room;
 import com.api.service.RoomService;
 
@@ -9,32 +10,33 @@ import java.util.List;
 
 @Path("rooms")
 public class RoomResource {
-    RoomService roomService = new RoomService();
+    RoomDao roomDao = new RoomDao();
+
     @GET
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public List<Room> getAllRooms()  {
-        return roomService.getAllRooms();
+        return roomDao.getAll();
     }
 
     @GET
     @Path("/{roomId}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public Room getRoom(@PathParam("roomId") Long roomId) {
-        return roomService.getRoomById(roomId);
+    public Room getRoomById(@PathParam("roomId") Long roomId) {
+        return roomDao.getById(roomId);
     }
 
     @GET
     @Path("/user/{userId}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public List<Room> getRoomsByUserId(@PathParam("userId") Long userId) {
-        return roomService.getRoomsByUserId(userId);
+        return roomDao.getRoomsByUserId(userId);
     }
 
     @DELETE
     @Path("/{roomId}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public void deleteRoom(@PathParam("roomId") Long roomId) {
-        roomService.deleteRoom(roomId);
+        roomDao.delete(roomId);
     }
 }
 
