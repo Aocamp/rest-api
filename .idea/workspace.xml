@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="77aaa07a-2f64-406b-b031-c5757f489e64" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/dao/MessageDao.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/dao/MessageDao.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,21 +80,21 @@
       <file leaf-file-name="MessageDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/MessageDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="135" column="120" lean-forward="false" selection-start-line="135" selection-start-column="120" selection-end-line="135" selection-end-column="120" />
+            <state relative-caret-position="400">
+              <caret line="143" column="16" lean-forward="false" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1554794002027" expanded="true" signature="574:599" ph="SELECT * FRO... messages" />
-                <marker date="1554794002027" expanded="true" signature="574:608" ph="SELECT *, us... messages" />
-                <marker date="1554794002027" expanded="true" signature="574:654" ph="SELECT *, us... messages" />
-                <marker date="1554794002027" expanded="true" signature="1439:1541" ph="SELECT * FRO... messages" />
-                <marker date="1554794002027" expanded="true" signature="2291:2389" ph="SELECT * FRO... messages" />
-                <marker date="1554794002027" expanded="true" signature="3223:3321" ph="SELECT * FRO... messages" />
-                <marker date="1554794002027" expanded="true" signature="4159:4242" ph="SELECT * FRO... messages" />
-                <marker date="1554794002027" expanded="true" signature="4159:4257" ph="SELECT * FRO... messages" />
-                <marker date="1554794002027" expanded="true" signature="5005:5038" ph="DELETE FROM messages... " />
-                <marker date="1554794002027" expanded="true" signature="5557:5595" ph="DELETE FROM messages... " />
-                <marker date="1554794002027" expanded="true" signature="6115:6153" ph="DELETE FROM messages... " />
+                <marker date="1554798005752" expanded="true" signature="574:599" ph="SELECT * FRO... messages" />
+                <marker date="1554798005752" expanded="true" signature="574:608" ph="SELECT *, us... messages" />
+                <marker date="1554798005752" expanded="true" signature="574:654" ph="SELECT *, us... messages" />
+                <marker date="1554798005752" expanded="true" signature="1439:1541" ph="SELECT * FRO... messages" />
+                <marker date="1554798005752" expanded="true" signature="2291:2389" ph="SELECT * FRO... messages" />
+                <marker date="1554798005752" expanded="true" signature="3223:3321" ph="SELECT * FRO... messages" />
+                <marker date="1554798005752" expanded="true" signature="4159:4242" ph="SELECT * FRO... messages" />
+                <marker date="1554798005752" expanded="true" signature="4159:4257" ph="SELECT * FRO... messages" />
+                <marker date="1554798005752" expanded="true" signature="5022:5055" ph="DELETE FROM messages... " />
+                <marker date="1554798005752" expanded="true" signature="5574:5612" ph="DELETE FROM messages... " />
+                <marker date="1554798005752" expanded="true" signature="6132:6170" ph="DELETE FROM messages... " />
               </folding>
             </state>
           </provider>
@@ -565,7 +566,7 @@
       <workItem from="1554355672366" duration="10506000" />
       <workItem from="1554442277444" duration="6753000" />
       <workItem from="1554706295043" duration="12500000" />
-      <workItem from="1554785508533" duration="9336000" />
+      <workItem from="1554785508533" duration="9484000" />
     </task>
     <task id="LOCAL-00001" summary="add mysql backup">
       <created>1552638601973</created>
@@ -616,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554794268977</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add generic resource">
+      <created>1554797855471</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1554797855471</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102227000" />
+    <option name="totallyTimeSpent" value="102375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1037,21 +1045,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/MessageDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="135" column="120" lean-forward="false" selection-start-line="135" selection-start-column="120" selection-end-line="135" selection-end-column="120" />
+        <state relative-caret-position="400">
+          <caret line="143" column="16" lean-forward="false" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1554794002027" expanded="true" signature="574:599" ph="SELECT * FRO... messages" />
-            <marker date="1554794002027" expanded="true" signature="574:608" ph="SELECT *, us... messages" />
-            <marker date="1554794002027" expanded="true" signature="574:654" ph="SELECT *, us... messages" />
-            <marker date="1554794002027" expanded="true" signature="1439:1541" ph="SELECT * FRO... messages" />
-            <marker date="1554794002027" expanded="true" signature="2291:2389" ph="SELECT * FRO... messages" />
-            <marker date="1554794002027" expanded="true" signature="3223:3321" ph="SELECT * FRO... messages" />
-            <marker date="1554794002027" expanded="true" signature="4159:4242" ph="SELECT * FRO... messages" />
-            <marker date="1554794002027" expanded="true" signature="4159:4257" ph="SELECT * FRO... messages" />
-            <marker date="1554794002027" expanded="true" signature="5005:5038" ph="DELETE FROM messages... " />
-            <marker date="1554794002027" expanded="true" signature="5557:5595" ph="DELETE FROM messages... " />
-            <marker date="1554794002027" expanded="true" signature="6115:6153" ph="DELETE FROM messages... " />
+            <marker date="1554798005752" expanded="true" signature="574:599" ph="SELECT * FRO... messages" />
+            <marker date="1554798005752" expanded="true" signature="574:608" ph="SELECT *, us... messages" />
+            <marker date="1554798005752" expanded="true" signature="574:654" ph="SELECT *, us... messages" />
+            <marker date="1554798005752" expanded="true" signature="1439:1541" ph="SELECT * FRO... messages" />
+            <marker date="1554798005752" expanded="true" signature="2291:2389" ph="SELECT * FRO... messages" />
+            <marker date="1554798005752" expanded="true" signature="3223:3321" ph="SELECT * FRO... messages" />
+            <marker date="1554798005752" expanded="true" signature="4159:4242" ph="SELECT * FRO... messages" />
+            <marker date="1554798005752" expanded="true" signature="4159:4257" ph="SELECT * FRO... messages" />
+            <marker date="1554798005752" expanded="true" signature="5022:5055" ph="DELETE FROM messages... " />
+            <marker date="1554798005752" expanded="true" signature="5574:5612" ph="DELETE FROM messages... " />
+            <marker date="1554798005752" expanded="true" signature="6132:6170" ph="DELETE FROM messages... " />
           </folding>
         </state>
       </provider>

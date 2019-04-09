@@ -141,6 +141,7 @@ public class MessageDao implements BaseDao<Message> {
                 Message message = new Message();
                 setMessage(message, rs);
                 list.add(message);
+
             }
         } catch (SQLException e) {
             e.printStackTrace();
