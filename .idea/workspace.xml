@@ -7,41 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77aaa07a-2f64-406b-b031-c5757f489e64" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/api_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/api_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fb191b9f-5bb6-47db-8068-9113cf29b5e4.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/fb191b9f-5bb6-47db-8068-9113cf29b5e4.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_18_1.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/api.iml" afterPath="$PROJECT_DIR$/api.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/Message.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/Message.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/Room.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/Room.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/Support.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/Support.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/model/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/MessageService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/RoomService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/service/UserService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/model/Message.class" afterPath="$PROJECT_DIR$/target/classes/com/api/model/Message.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/model/Room.class" afterPath="$PROJECT_DIR$/target/classes/com/api/model/Room.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/api/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/resource/MessageResource.class" afterPath="$PROJECT_DIR$/target/classes/com/api/resource/MessageResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/resource/RoomResource.class" afterPath="$PROJECT_DIR$/target/classes/com/api/resource/RoomResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/resource/UserResource.class" afterPath="$PROJECT_DIR$/target/classes/com/api/resource/UserResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/service/MessageService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/service/RoomService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/service/UserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/Message.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/Message.class" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/Room.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/Room.class" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/User.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/model/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/MessageResource.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/MessageResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/RoomResource.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/RoomResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/UserResource.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/UserResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/service/MessageService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/service/RoomService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/service/UserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/lib/jersey-json-1.18.1.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -599,7 +565,7 @@
       <workItem from="1554355672366" duration="10506000" />
       <workItem from="1554442277444" duration="6753000" />
       <workItem from="1554706295043" duration="12500000" />
-      <workItem from="1554785508533" duration="8618000" />
+      <workItem from="1554785508533" duration="9336000" />
     </task>
     <task id="LOCAL-00001" summary="add mysql backup">
       <created>1552638601973</created>
@@ -643,11 +609,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554360250547</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add generic resource">
+      <created>1554794268977</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554794268977</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101509000" />
+    <option name="totallyTimeSpent" value="102227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,7 +655,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4480198" sideWeight="0.48918918" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4480198" sideWeight="0.48918918" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34" sideWeight="0.4759556" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -746,7 +719,8 @@
     <MESSAGE value="update message service" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="add dao" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dao" />
+    <MESSAGE value="add generic resource" />
+    <option name="LAST_COMMIT_MESSAGE" value="add generic resource" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
