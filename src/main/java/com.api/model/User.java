@@ -7,8 +7,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement(name = "usersList")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class User extends BaseModel {
-    private String userLogin;
-    private int support;
+    protected String userLogin;
+    protected int support;
 
     public String getUserLogin() {
         return userLogin;

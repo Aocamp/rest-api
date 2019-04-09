@@ -8,10 +8,11 @@ import java.util.Date;
 @XmlRootElement(name = "messagesList")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Message extends BaseModel{
-    private Long roomId;
-    private String messageText;
-    private Date messageDate;
-    private Long userId;
+    protected Long roomId;
+    protected String messageText;
+    protected String messageDate;
+    protected Long userId;
+    protected String userLogin;
 
     public Long getRoomId() {
         return roomId;
@@ -29,11 +30,11 @@ public class Message extends BaseModel{
         this.messageText = messageText;
     }
 
-    public Date getMessageDate() {
+    public String getMessageDate() {
         return messageDate;
     }
 
-    public void setMessageDate(Date messageDate) {
+    public void setMessageDate(String messageDate) {
         this.messageDate = messageDate;
     }
 
@@ -43,5 +44,13 @@ public class Message extends BaseModel{
 
     public void setUserId(Long userId) {
         this.userId = userId;
+    }
+
+    public String getUserLogin() {
+        return userLogin;
+    }
+
+    public void setUserLogin(String userLogin) {
+        this.userLogin = userLogin;
     }
 }

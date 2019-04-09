@@ -1023,65 +1023,48 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="250" parent="231" name="support_id">
+    <column id="250" parent="231" name="user_id">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="251" parent="231" name="room_id">
-      <Position>3</Position>
-      <DataType>int(11)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="252" parent="231" name="support_id">
-      <ColNames>support_id</ColNames>
+    <index id="251" parent="231" name="support_id">
+      <ColNames>user_id</ColNames>
     </index>
-    <index id="253" parent="231" name="room_id">
-      <ColNames>room_id</ColNames>
-    </index>
-    <key id="254" parent="231" name="PRIMARY">
+    <key id="252" parent="231" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="255" parent="231" name="support_actions_ibfk_1">
-      <ColNames>support_id</ColNames>
+    <foreign-key id="253" parent="231" name="support_actions_ibfk_1">
+      <ColNames>user_id</ColNames>
       <RefSchemaName>server_db</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
-    <foreign-key id="256" parent="231" name="support_actions_ibfk_2">
-      <ColNames>room_id</ColNames>
-      <RefSchemaName>server_db</RefSchemaName>
-      <RefTableName>rooms</RefTableName>
-      <RefColNames>id</RefColNames>
-      <OnUpdate>cascade</OnUpdate>
-      <OnDelete>cascade</OnDelete>
-    </foreign-key>
-    <column id="257" parent="232" name="id">
+    <column id="254" parent="232" name="id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="258" parent="232" name="user_login">
+    <column id="255" parent="232" name="user_login">
       <Position>2</Position>
       <DataType>varchar(40)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="259" parent="232" name="support">
+    <column id="256" parent="232" name="support">
       <Position>3</Position>
       <DataType>tinyint(1)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="260" parent="232" name="PRIMARY">
+    <key id="257" parent="232" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
