@@ -7,7 +7,7 @@ import javax.ws.rs.Path;
 
 @Path("supports")
 public class SupportActionsResource extends BaseResource<Support, SupportActionsDao>{
-    SupportActionsDao dao = new SupportActionsDao();
+    private SupportActionsDao dao = new SupportActionsDao();
 
     public SupportActionsResource(){
         setDb(dao);

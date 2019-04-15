@@ -37,7 +37,6 @@ public class SupportActionsDao implements BaseDao<Support> {
             closePreparedStatement(pst);
             closeResultSet(rs);
         }
-
         return list;
     }
 
