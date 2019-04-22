@@ -65,12 +65,12 @@ public class RoomDao implements BaseDao<Room> {
         return room;
     }
 
-    public List<Room> getRoomsByUserId(Long userId){
+    public Room getRoomByUserId(Long userId){
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
 
-        List<Room> list = new ArrayList<>();
+        Room room = new Room();
 
         try {
             conn = HikariCPDataSource.getConnection();
@@ -78,9 +78,7 @@ public class RoomDao implements BaseDao<Room> {
             pst.setLong(1, userId);
             rs = pst.executeQuery();
             while (rs.next()) {
-                Room room = new Room();
                 setRoom(room, rs);
-                list.add(room);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -90,7 +88,35 @@ public class RoomDao implements BaseDao<Room> {
             closeResultSet(rs);
         }
 
-        return list;
+        return room;
+    }
+
+    public Room addRoom(Room room){
+        Connection conn = null;
+        PreparedStatement pst = null;
+        ResultSet rs = null;
+
+        try {
+            conn = HikariCPDataSource.getConnection();
+            String query = "SELECT id FROM rooms WHERE room_name = ?";
+            pst = conn.prepareStatement(query);
+            pst.setString(1, room.getRoomName());
+            rs = pst.executeQuery();
+            if (rs.wasNull()) {
+                String add = "INSERT INTO rooms (room_name, user_id) VALUES (?, ?)";
+                pst = conn.prepareStatement(add);
+                pst.setString(1, room.getRoomName());
+                pst.setLong(2, room.getUserId());
+                pst.executeUpdate();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            closeConnection(conn);
+            closePreparedStatement(pst);
+            closeResultSet(rs);
+        }
+        return room;
     }
 
     @Override

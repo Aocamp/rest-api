@@ -36,6 +36,12 @@ public class MessageResource extends BaseResource<Message, MessageDao>{
         return dao.getMessagesByRoomId(roomId);
     }
 
+    @POST
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+    public Message addMessage(Message message){
+        return dao.addMessage(message);
+    }
+
     @DELETE
     @Path("/room/{roomId}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })

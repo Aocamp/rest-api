@@ -153,6 +153,29 @@ public class MessageDao implements BaseDao<Message> {
         return list;
     }
 
+    public Message addMessage(Message message){
+        Connection conn = null;
+        PreparedStatement pst = null;
+
+        try {
+            String add = "INSERT INTO messages (room_id, message_text, message_date, user_id) VALUES (?, ?, ?, ?)";
+            conn = HikariCPDataSource.getConnection();
+            pst = conn.prepareStatement(add);
+            int  col = 1;
+            pst.setLong(col, message.getRoomId());
+            pst.setString(++col, message.getMessageText());
+            pst.setString(++col, message.getMessageDate());
+            pst.setLong(++col, message.getUserId());
+            pst.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            closeConnection(conn);
+            closePreparedStatement(pst);
+        }
+        return message;
+    }
+
 
     @Override
     public void delete(Long id) {

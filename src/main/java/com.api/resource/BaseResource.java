@@ -16,7 +16,7 @@ public abstract class BaseResource <T extends BaseModel, D extends BaseDao<T>> {
 
     @GET
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public List<T> getAllMessages()  {
+    public List<T> getAll()  {
         return dao.getAll();
     }
 

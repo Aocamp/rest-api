@@ -18,8 +18,14 @@ public class RoomResource extends BaseResource<Room, RoomDao>{
     @GET
     @Path("/user/{userId}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public List<Room> getRoomsByUserId(@PathParam("userId") Long userId) {
-        return dao.getRoomsByUserId(userId);
+    public Room getRoomByUserId(@PathParam("userId") Long userId) {
+        return dao.getRoomByUserId(userId);
+    }
+
+    @POST
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+    public Room addRoom(Room room){
+        return dao.addRoom(room);
     }
 }
 

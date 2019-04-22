@@ -16,6 +16,13 @@ public class UserResource extends BaseResource<User, UserDao>{
         setDb(dao);
     }
 
+    @GET
+    @Path("/username/{login}")
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
+    public User getByLogin(@PathParam("login") String login)  {
+        return dao.getByLogin(login);
+    }
+
     @POST
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public User addUser(User user){

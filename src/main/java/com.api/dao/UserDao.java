@@ -61,7 +61,31 @@ public class UserDao implements BaseDao<User> {
             closePreparedStatement(pst);
             closeResultSet(rs);
         }
+        return user;
+    }
 
+    public User getByLogin(String login) {
+        Connection conn = null;
+        PreparedStatement pst = null;
+        ResultSet rs = null;
+
+        User user = new User();
+
+        try {
+            conn = HikariCPDataSource.getConnection();
+            pst = conn.prepareStatement("SELECT * FROM users WHERE user_login= ?");
+            pst.setString(1, login);
+            rs = pst.executeQuery();
+            while (rs.next()) {
+                setUser(user, rs);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            closeConnection(conn);
+            closePreparedStatement(pst);
+            closeResultSet(rs);
+        }
         return user;
     }
 
