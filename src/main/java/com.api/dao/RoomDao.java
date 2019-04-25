@@ -3,10 +3,7 @@ package com.api.dao;
 import com.api.database.HikariCPDataSource;
 import com.api.model.Room;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -87,7 +84,6 @@ public class RoomDao implements BaseDao<Room> {
             closePreparedStatement(pst);
             closeResultSet(rs);
         }
-
         return room;
     }
 
@@ -95,19 +91,18 @@ public class RoomDao implements BaseDao<Room> {
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
-
         try {
             conn = HikariCPDataSource.getConnection();
-            String query = "SELECT id FROM rooms WHERE room_name = ?";
-            pst = conn.prepareStatement(query);
+            String add = "INSERT INTO rooms (room_name, user_id) VALUES (?, ?)";
+            pst = conn.prepareStatement(add, Statement.RETURN_GENERATED_KEYS);
             pst.setString(1, room.getRoomName());
-            rs = pst.executeQuery();
-            if (rs.wasNull()) {
-                String add = "INSERT INTO rooms (room_name, user_id) VALUES (?, ?)";
-                pst = conn.prepareStatement(add);
-                pst.setString(1, room.getRoomName());
-                pst.setLong(2, room.getUserId());
-                pst.executeUpdate();
+            pst.setLong(2, room.getUserId());
+            pst.executeUpdate();
+
+            rs = pst.getGeneratedKeys();
+            if (rs.next()){
+                long id = rs.getLong(1);
+                room.setId(id);
             }
         } catch (SQLException e) {
             e.printStackTrace();

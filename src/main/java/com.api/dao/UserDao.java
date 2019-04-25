@@ -3,10 +3,7 @@ package com.api.dao;
 import com.api.database.HikariCPDataSource;
 import com.api.model.User;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -93,19 +90,18 @@ public class UserDao implements BaseDao<User> {
         Connection conn = null;
         PreparedStatement pst = null;
         ResultSet rs = null;
-
         try {
             conn = HikariCPDataSource.getConnection();
-            String query = "SELECT * FROM users WHERE user_login = ?";
-            pst = conn.prepareStatement(query);
+            String add = "INSERT INTO users (user_login, support) VALUES (?, ?)";
+            pst = conn.prepareStatement(add, Statement.RETURN_GENERATED_KEYS);
             pst.setString(1, user.getUserLogin());
-            rs = pst.executeQuery();
-            if (rs.wasNull()) {
-                String add = "INSERT INTO users (user_login, support) VALUES (?, ?)";
-                pst = conn.prepareStatement(add);
-                pst.setString(1, user.getUserLogin());
-                pst.setInt(2, user.getSupport());
-                pst.executeUpdate();
+            pst.setInt(2, user.getSupport());
+            pst.executeUpdate();
+
+            rs = pst.getGeneratedKeys();
+            if (rs.next()){
+                long id = rs.getLong(1);
+                user.setId(id);
             }
         } catch (SQLException e) {
             e.printStackTrace();

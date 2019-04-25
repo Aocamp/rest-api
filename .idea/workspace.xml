@@ -8,19 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="77aaa07a-2f64-406b-b031-c5757f489e64" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/dao/MessageDao.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/dao/MessageDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.api/dao/RoomDao.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/dao/RoomDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.api/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/dao/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/BaseResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/BaseResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" afterPath="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/resource/MessageResource.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/resource/RoomResource.class" afterPath="$PROJECT_DIR$/target/classes/com/api/resource/RoomResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/resource/UserResource.class" afterPath="$PROJECT_DIR$/target/classes/com/api/resource/UserResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/MessageResource.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/MessageResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/RoomResource.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/RoomResource.class" />
-      <change beforePath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/UserResource.class" afterPath="$PROJECT_DIR$/target/com.api/WEB-INF/classes/com/api/resource/UserResource.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,25 +78,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="MessageDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/MessageDao.java">
+      <file leaf-file-name="RoomResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="169" column="34" lean-forward="true" selection-start-line="169" selection-start-column="34" selection-end-line="169" selection-end-column="34" />
-              <folding>
-                <marker date="1555913488028" expanded="true" signature="574:599" ph="SELECT * FRO... messages" />
-                <marker date="1555913488028" expanded="true" signature="574:608" ph="SELECT *, us... messages" />
-                <marker date="1555913488028" expanded="true" signature="574:654" ph="SELECT *, us... messages" />
-                <marker date="1555913488028" expanded="true" signature="1439:1541" ph="SELECT * FRO... messages" />
-                <marker date="1555913488028" expanded="true" signature="2291:2389" ph="SELECT * FRO... messages" />
-                <marker date="1555913488028" expanded="true" signature="3223:3321" ph="SELECT * FRO... messages" />
-                <marker date="1555913488028" expanded="true" signature="4159:4242" ph="SELECT * FRO... messages" />
-                <marker date="1555913488028" expanded="true" signature="4159:4257" ph="SELECT * FRO... messages" />
-                <marker date="1555913488028" expanded="true" signature="4946:5033" ph="INSERT INTO messages... " />
-                <marker date="1555913488028" expanded="true" signature="5843:5876" ph="DELETE FROM messages... " />
-                <marker date="1555913488028" expanded="true" signature="6395:6433" ph="DELETE FROM messages... " />
-                <marker date="1555913488028" expanded="true" signature="6953:6991" ph="DELETE FROM messages... " />
-              </folding>
+            <state relative-caret-position="325">
+              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,15 +91,14 @@
       <file leaf-file-name="RoomDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/RoomDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+            <state relative-caret-position="246">
+              <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
               <folding>
-                <marker date="1555672833121" expanded="true" signature="617:636" ph="SELECT * FRO... rooms" />
-                <marker date="1555672833121" expanded="true" signature="1357:1389" ph="SELECT * FRO... rooms" />
-                <marker date="1555672833121" expanded="true" signature="2066:2103" ph="SELECT * FRO... rooms" />
-                <marker date="1555672833121" expanded="true" signature="2729:2769" ph="SELECT * FRO... users" />
-                <marker date="1555672833121" expanded="true" signature="2969:3021" ph="INSERT INTO users... " />
-                <marker date="1555672833121" expanded="true" signature="3679:3709" ph="DELETE FROM rooms... " />
+                <marker date="1556175664426" expanded="true" signature="516:535" ph="SELECT * FRO... rooms" />
+                <marker date="1556175664426" expanded="true" signature="1256:1288" ph="SELECT * FRO... rooms" />
+                <marker date="1556175664426" expanded="true" signature="1965:2002" ph="SELECT * FRO... rooms" />
+                <marker date="1556175664426" expanded="true" signature="2624:2676" ph="INSERT INTO users... " />
+                <marker date="1556175664426" expanded="true" signature="3494:3524" ph="DELETE FROM rooms... " />
               </folding>
             </state>
           </provider>
@@ -185,13 +160,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com.api/resource/SupportActionsResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/dao/SupportActionsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/resource/BaseResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.api/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.api/dao/RoomDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/resource/MessageResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/dao/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.api/dao/MessageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.api/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.api/dao/RoomDao.java" />
       </list>
     </option>
   </component>
@@ -232,8 +207,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,8 +304,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,7 +534,9 @@
       <workItem from="1555646497915" duration="1541000" />
       <workItem from="1555662058504" duration="6253000" />
       <workItem from="1555843355783" duration="263000" />
-      <workItem from="1555911105495" duration="3476000" />
+      <workItem from="1555911105495" duration="4697000" />
+      <workItem from="1556087018034" duration="3096000" />
+      <workItem from="1556172464216" duration="5384000" />
     </task>
     <task id="LOCAL-00001" summary="add mysql backup">
       <created>1552638601973</created>
@@ -631,11 +608,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555301738438</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update dao, resources">
+      <created>1555926575563</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555926575564</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128026000" />
+    <option name="totallyTimeSpent" value="137727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -672,7 +656,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4480198" sideWeight="0.48918918" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2837838" sideWeight="0.4759556" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29405406" sideWeight="0.4759556" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25135136" sideWeight="0.5240444" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -736,7 +720,8 @@
     <MESSAGE value="add dao" />
     <MESSAGE value="add generic resource" />
     <MESSAGE value="update dao, database" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dao, database" />
+    <MESSAGE value="update dao, resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="update dao, resources" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -747,22 +732,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/Support.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -899,14 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -947,10 +908,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/sql/ResultSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="601" column="9" lean-forward="false" selection-start-line="601" selection-start-column="9" selection-end-line="601" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -963,42 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-425">
-          <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-          <folding>
-            <marker date="1555499950506" expanded="true" signature="617:636" ph="SELECT * FRO... users" />
-            <marker date="1555499950506" expanded="true" signature="1356:1388" ph="SELECT * FRO... users" />
-            <marker date="1555499950506" expanded="true" signature="2062:2101" ph="SELECT * FRO... users" />
-            <marker date="1555499950506" expanded="true" signature="2727:2767" ph="SELECT * FRO... users" />
-            <marker date="1555499950506" expanded="true" signature="2968:3021" ph="INSERT INTO users... " />
-            <marker date="1555499950506" expanded="true" signature="3671:3728" ph="UPDATE users... " />
-            <marker date="1555499950506" expanded="true" signature="4370:4400" ph="DELETE FROM users... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/SupportActionsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        <state relative-caret-position="-279">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding>
             <marker date="1554805820377" expanded="true" signature="626:655" ph="SELECT * FRO... support_actions" />
             <marker date="1554805820377" expanded="true" signature="1439:1474" ph="SELECT * FRO... messages" />
@@ -1007,10 +945,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="488" column="30" lean-forward="true" selection-start-line="488" selection-start-column="30" selection-end-line="488" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="104" column="13" lean-forward="false" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+          <folding>
+            <marker date="1556173863906" expanded="true" signature="516:535" ph="SELECT * FRO... users" />
+            <marker date="1556173863906" expanded="true" signature="1255:1287" ph="SELECT * FRO... users" />
+            <marker date="1556173863906" expanded="true" signature="1961:2000" ph="SELECT * FRO... users" />
+            <marker date="1556173863906" expanded="true" signature="2623:2676" ph="INSERT INTO users... " />
+            <marker date="1556173863906" expanded="true" signature="3486:3543" ph="UPDATE users... " />
+            <marker date="1556173863906" expanded="true" signature="4185:4215" ph="DELETE FROM users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/MessageDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="169" column="34" lean-forward="true" selection-start-line="169" selection-start-column="34" selection-end-line="169" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="153" column="5" lean-forward="false" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
           <folding>
             <marker date="1555913488028" expanded="true" signature="574:599" ph="SELECT * FRO... messages" />
             <marker date="1555913488028" expanded="true" signature="574:608" ph="SELECT *, us... messages" />
@@ -1028,17 +989,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.api/resource/RoomResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.api/dao/RoomDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="104" column="31" lean-forward="false" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+        <state relative-caret-position="246">
+          <caret line="64" column="16" lean-forward="false" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
           <folding>
-            <marker date="1555672833121" expanded="true" signature="617:636" ph="SELECT * FRO... rooms" />
-            <marker date="1555672833121" expanded="true" signature="1357:1389" ph="SELECT * FRO... rooms" />
-            <marker date="1555672833121" expanded="true" signature="2066:2103" ph="SELECT * FRO... rooms" />
-            <marker date="1555672833121" expanded="true" signature="2729:2769" ph="SELECT * FRO... users" />
-            <marker date="1555672833121" expanded="true" signature="2969:3021" ph="INSERT INTO users... " />
-            <marker date="1555672833121" expanded="true" signature="3679:3709" ph="DELETE FROM rooms... " />
+            <marker date="1556175664426" expanded="true" signature="516:535" ph="SELECT * FRO... rooms" />
+            <marker date="1556175664426" expanded="true" signature="1256:1288" ph="SELECT * FRO... rooms" />
+            <marker date="1556175664426" expanded="true" signature="1965:2002" ph="SELECT * FRO... rooms" />
+            <marker date="1556175664426" expanded="true" signature="2624:2676" ph="INSERT INTO users... " />
+            <marker date="1556175664426" expanded="true" signature="3494:3524" ph="DELETE FROM rooms... " />
           </folding>
         </state>
       </provider>
